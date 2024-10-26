@@ -21,18 +21,19 @@ public class Main {
             System.out.println("Если скрость " + speed + " км/ч, то можно ездить спокойно");}
 
 
-        int age1 = 44;
-        if (age1 >=2 && age1 <= 18){
-            System.out.println("Если возраст человека равен " + age1 + ",то ему нужно ходить в сад");}
-        if (age1 >=7 && age1 <= 17){
-            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в школу");}
-        if (age1 >=18 && age1 <= 24){
-            System.out.println("Если возраст человека равен " + age1 + ", то его место в университете");}
-        if (age1> 24){
-            System.out.println("Если возраст человека равен " + age1 + ", то ему нужно ходить в на работу");}
+
+        int ageOne = 16;
+        if (ageOne >=2 && ageOne <= 6){
+            System.out.println("Если возраст человека равен " + ageOne + ",то ему нужно ходить в сад");}
+        if (ageOne >=7 && ageOne <= 17){
+            System.out.println("Если возраст человека равен " + ageOne + ", то ему нужно ходить в школу");}
+        if (ageOne >=18 && ageOne <= 24){
+            System.out.println("Если возраст человека равен " + ageOne + ", то его место в университете");}
+        if (ageOne > 24){
+            System.out.println("Если возраст человека равен " + ageOne + ", то ему нужно ходить в на работу");}
 
 
-        int ageOfChild = 44;
+        int ageOfChild = 16;
         if (ageOfChild < 5) {
             System.out.println("Если возраст ребенка равен " + ageOfChild + ", то ему нельзя кататься на аттракционе");}
         if (ageOfChild >= 5 && ageOfChild <= 14){
@@ -42,14 +43,14 @@ public class Main {
 
 
 
-        int capacitiOfCarridge = 59;
-        if (capacitiOfCarridge < 102){
+        int capacityOfCarridge = 59;
+        if (capacityOfCarridge < 102){
             System.out.println("в вагоне есть места");}
         else {
             System.out.println("в вагоне мест нет");}
-        if (capacitiOfCarridge < 60){
+        if (capacityOfCarridge < 60){
             System.out.println("есть сидячие места и стоячие места");}
-        if (capacitiOfCarridge > 60 && capacitiOfCarridge < 102){
+        if (capacityOfCarridge > 60 && capacityOfCarridge < 102){
             System.out.println("есть стоячие места");}
 
 
